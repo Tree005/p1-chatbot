@@ -1,0 +1,49 @@
+# ------------------------------
+# Python 通用忽略
+# ------------------------------
+# 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+# 环境变量（最重要！绝对不能提交）
+.env
+.env.local
+.env.*
+
+# 日志文件
+*.log
+logs/
+
+# 打包和分发
+dist/
+build/
+*.egg-info/
+*.egg
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ------------------------------
+# IDE 和编辑器
+# ------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# 其他
+.DS_Store
+Thumbs.db
